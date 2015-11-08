@@ -1,4 +1,4 @@
-# terraria-backuper
+# terraria-backupper
 
 Python script to backup your Terraria worlds.
 
@@ -8,7 +8,7 @@ If you fuck up your world files using this tool, it's your problem.
 
 1. Open `conf.conf` and set the `worlds_location` and `backup_localion` directories.
 
-2. Run `python3 backuper.py world-name`
+2. Run `python3 backupper.py world-name`
 
 The script will copy your world file to the backup dir and add a version number at the end of the filename. It will also keep a .txt file with every version number and a timestamp of when it was created.
 

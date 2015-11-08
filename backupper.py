@@ -4,8 +4,8 @@ import datetime
 
 # Read the args
 if len(sys.argv) != 2:
-  print("Usage: python backuper.py world-name")
-  print("Example: python backuper.py NewWorld")
+  print("Usage: python backupper.py world-name")
+  print("Example: python backupper.py NewWorld")
   sys.exit()
 
 world_name = str(sys.argv[1])
